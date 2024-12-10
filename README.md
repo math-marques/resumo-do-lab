@@ -91,4 +91,96 @@ Documentação e Treinamentos: O Azure tem uma documentação super completa e v
 Pretensão é tirar a certificação em 2025. Mas, entendi bem que os modelos de serviço e implantação são pontos cruciais pra prova. Praticar identificar qual serviço resolve qual problema. Usar a prática gratuita pra testar coisas como VMs, App Services e banco de dados.
 Resumindo: Explorar o Azure Portal, CLI e Azure Docs.
 
+# 🚀 Guia Ligeiro: Criação de Máquinas Virtuais no Azure ☁️  
+
+Aprendendo a criar e configurar Máquinas Virtuais (VMs) no Azure? Esse aqui é um guia básico pra o dia a dia ou no exame AZ-900.  
+
+---
+
+# O que é uma VM no Azure?  
+Uma VM (Virtual Machine) é um computador virtual que roda no Azure, podendo ser configurado com sistemas operacionais, aplicações e recursos customizados. E serve para testar aplicativos em diferentes ambientes (Windows/Linux), hospedar aplicações ou serviços e simular servidores locais na nuvem.  
+
+---
+
+# Vantagens das VMs no Azure
+- **Escalabilidade**: Adicione ou remova recursos conforme a necessidade.  
+- **Custo Controlado**: Pague apenas pelo tempo de uso.  
+- **Alta Disponibilidade**: Redundância em diferentes data centers.  
+- **Flexibilidade**: Escolha o tamanho, região, SO e muito mais.  
+
+---
+
+### **Passo a Passo pra Criar uma VM no Azure**  
+
+#### **1️⃣ Acesse o Portal do Azure**  
+- Entrar no [portal.azure.com](https://portal.azure.com) com a conta  
+
+#### **2️⃣ Ir até "Máquinas Virtuais"**  
+- No painel lateral, clicar em **Máquinas Virtuais** e, depois, em **Criar -> Máquina Virtual**.  
+
+#### **3️⃣ Configurar os Detalhes da VM**  
+- **Grupo de Recursos**: Escolher um existente ou criar um novo (é tipo uma pasta pros seus recursos).  
+- **Nome da VM**: Escolher um nome único (ex: "MeuServidorDev").  
+- **Região**: Escolher a localização do data center (quanto mais perto, menor a latência).  
+
+#### **4️⃣ Escolher o Sistema Operacional**  
+- **Windows**: Ideal pra aplicações como .NET ou SQL Server.  
+- **Linux**: Melhor pra DevOps, containers, e soluções open-source.  
+
+#### **5️⃣ Escolher o Tamanho da VM**  
+- Baseado em CPU, memória e armazenamento.  
+  - Exemplo:  
+    - **B1s**: Básico, pra testes (custa centavos por hora).  
+    - **D-Series**: Pra cargas de trabalho médias.  
+    - **E-Series**: Otimizado pra aplicações com muita memória.  
+
+#### **6️⃣ Configurar Autenticação**  
+- **Usuário e Senha**: Pra Windows ou Linux (mais simples pra começar).  
+
+#### **7️⃣ Disco e Armazenamento**  
+- **SSD Premium**: Rápido, ideal pra produção.  
+- **HDD Padrão**: Mais barato, bom pra ambientes de teste.  
+
+#### **8️⃣ Rede Virtual**  
+- Configuração automática cria uma **VNet** e define o acesso público pra sua VM.  
+- Configure portas, como a **porta 22 (SSH)** pra Linux ou **porta 3389 (RDP)** pra Windows.  
+
+#### **9️⃣ Revisar e Criar**  
+---
+
+### **Gerenciando sua VM**  
+- **Acesse sua VM**:  
+  - Linux: Use um cliente SSH (como `PuTTY`) pra conectar via terminal.  
+  - Windows: Use a Conexão de Área de Trabalho Remota (RDP).  
+- **Monitoramento**:  
+  - Acompanhe consumo de CPU, memória e armazenamento pelo **Azure Monitor**.  
+- **Escalar ou Pausar**:  
+  - Precisa de mais desempenho? Escale pra uma VM maior.  
+  - Vai ficar um tempo sem usar? Pause pra economizar.  
+
+---
+
+### **Custos de VMs: Dicas pra Economizar 💰**  
+1. **Tamanhos Básicos pra Testes**: Use séries como **B1s** pra ambientes simples.  
+2. **Regiões Mais Baratas**: Algumas regiões (ex: Sul do Brasil) podem ser mais caras. Explore outras, como Leste dos EUA.  
+3. **Pausar a VM**: Sempre desligue a VM no painel do Azure quando não estiver em uso.  
+4. **Reservas de 1 ou 3 Anos**: Economize até 72% em VMs de longo prazo.  
+
+---
+
+### **Dicas de Ouro 🏆**  
+- Experimente criar **Snapshots**: Faça backups rápidos do disco da sua VM.  
+- Configure **NSG (Network Security Groups)**: Garanta que só portas necessárias estejam abertas.  
+- Explore **Azure Bastion**: Acesse suas VMs com mais segurança, sem expor IPs públicos.  
+- Teste com o **Azure CLI**: Automatize a criação e gerenciamento de VMs.  
+
+---
+
+### **VMs no Exame AZ-900**  
+- Entenda os tipos de discos e tamanhos de VMs.  
+- Saiba o que é VNet e portas de acesso (SSH/RDP).  
+- Grave na memória o modelo de pagamento: **Pay-as-you-go**.  
+
+Bora dominar as VMs e dar aquele passo a mais na nuvem! 🌟
+
 🚀 Simbora aprender sobre a nuvem e garantir um currículo legal! 💼
