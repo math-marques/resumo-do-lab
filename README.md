@@ -179,8 +179,39 @@ Uma VM (Virtual Machine) é um computador virtual que roda no Azure, podendo ser
 ### **VMs no Exame AZ-900**  
 - Entenda os tipos de discos e tamanhos de VMs.  
 - Saiba o que é VNet e portas de acesso (SSH/RDP).  
-- Grave na memória o modelo de pagamento: **Pay-as-you-go**.  
+- Grave na memória o modelo de pagamento: **Pay-as-you-go**. 🌟
 
-Bora dominar as VMs e dar aquele passo a mais na nuvem! 🌟
+# ☁️ Guia Ligeiro: Configurando um Banco de Dados no Azure 🚀
+Forma prática e segura de gerenciar bancos de dados na nuvem, no Azure. Ele oferece soluções completas, seja pra projetos pequenos ou grandes, com suporte a SQL Server, PostgreSQL, MySQL, e até bancos NoSQL como o Cosmos DB. Bora entender como tudo funciona?
+
+# Por que usar bancos de dados no Azure?
+--> Gestão simplificada: Sem dor de cabeça com hardware, backups ou atualizações;
+--> Alta disponibilidade: Seus dados sempre acessíveis, com redundância global;
+--> Segurança integrada: Criptografia, autenticação multifator e compliance com normas globais;
+--> Escalabilidade: Cresceu o tráfego? O Azure ajusta os recursos automaticamente;
+--> Conexão fácil: Integração com serviços como Azure Functions, Web Apps e Power BI;
+
+### Tipos de Bancos Disponíveis no Azure
+Azure SQL Database, PostgreSQL, MySQL, Cosmos DB, MariaDB
+
+# Principais Recursos dos Bancos de Dados no Azure
+Modos de Preço
+
+DTU (Database Transaction Units): Simples, com recursos pré-definidos de CPU, memória e IOPS.
+VCore: Controle granular pra ajustar CPU, memória e armazenamento separadamente.
+Escalabilidade
+
+Escale horizontal ou verticalmente sem interrupções.
+Modelos de replicação automática, incluindo leitura global.
+Segurança de Dados
+
+Criptografia em trânsito (SSL) e em repouso (TDE - Transparent Data Encryption).
+Firewalls e integração com Azure Active Directory.
+Backups e Recuperação
+
+Backups automáticos configuráveis com retenção de até 35 dias.
+Recuperação ponto a ponto para evitar perda de dados.
+Monitoramento e Diagnóstico
+
 
 🚀 Simbora aprender sobre a nuvem e garantir um currículo legal! 💼
