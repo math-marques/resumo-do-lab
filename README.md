@@ -103,10 +103,10 @@ Uma VM (Virtual Machine) é um computador virtual que roda no Azure, podendo ser
 ---
 
 # Vantagens das VMs no Azure
-- **Escalabilidade**: Adicione ou remova recursos conforme a necessidade.  
-- **Custo Controlado**: Pague apenas pelo tempo de uso.  
+- **Escalabilidade**: Adicione ou remova recursos conforme a necessidade. Isso vai depender muito de cada caso. É necessário complexar e/ou facilitar seu contexto para dar certo. 
+- **Custo Controlado**: Pague apenas pelo tempo de uso. E até mesmo quando for cancelar a assinatura, ele lhe envia um backup automático de tudo que tem nas mãos. É um autoserviço de ponta. 
 - **Alta Disponibilidade**: Redundância em diferentes data centers.  
-- **Flexibilidade**: Escolha o tamanho, região, SO e muito mais.  
+- **Flexibilidade**: Escolha o tamanho, região, SO e outras coisas...  
 
 ---
 
@@ -124,7 +124,7 @@ Uma VM (Virtual Machine) é um computador virtual que roda no Azure, podendo ser
 - **Região**: Escolher a localização do data center (quanto mais perto, menor a latência).  
 
 #### **4️⃣ Escolher o Sistema Operacional**  
-- **Windows**: Ideal pra aplicações como .NET ou SQL Server.  
+- **Windows**: Ideal pra aplicações como .NET ou SQL Server. É o caso indicado pra quem está mergulhando no universo Microsoft. 
 - **Linux**: Melhor pra DevOps, containers, e soluções open-source.  
 
 #### **5️⃣ Escolher o Tamanho da VM**  
@@ -215,3 +215,5 @@ Monitoramento e Diagnóstico
 
 
 🚀 Simbora aprender sobre a nuvem e garantir um currículo legal! 💼
+A meta é ir atrás do AZ-900 da microsoft
+
