@@ -18,10 +18,10 @@ E aí, devs! 😎 Aqui vai o resumo direto do que rolou no módulo de computaç�
 --> Tudo prontinho e gerenciado. Você só acessa e usa o software pela web. Exemplo clássico: Microsoft 365.
 
 # Modelos de Implantação:
-
-# Nuvem Pública: Infraestrutura compartilhada entre vários usuários. Exemplo: Azure.
-# Nuvem Privada: Criada exclusivamente pra uma organização, com maior controle.
-# Nuvem Híbrida: Combinação de pública e privada, pra maior flexibilidade.
+Nuvem Pública: Infraestrutura compartilhada entre vários usuários. 
+Exemplo: Azure.
+Nuvem Privada: Criada exclusivamente pra uma organização, com maior controle.
+Nuvem Híbrida: Combinação de pública e privada, pra maior flexibilidade.
 
 # Por que usar Azure? Qual relevância?
 Acredito que tenha ficado claro só com a abordagem de não ter algo físico e rudimentar. Mas vou destrinchar mais alguns pontos:
@@ -149,12 +149,12 @@ Uma VM (Virtual Machine) é um computador virtual que roda no Azure, podendo ser
 ---
 
 ### **Gerenciando sua VM**  
-- **Acesse sua VM**:  
+▶**Acesse sua VM**:  
   - Linux: Use um cliente SSH (como `PuTTY`) pra conectar via terminal.  
   - Windows: Use a Conexão de Área de Trabalho Remota (RDP).  
-- **Monitoramento**:  
+▶**Monitoramento**:  
   - Acompanhe consumo de CPU, memória e armazenamento pelo **Azure Monitor**.  
-- **Escalar ou Pausar**:  
+▶**Escalar ou Pausar**:  
   - Precisa de mais desempenho? Escale pra uma VM maior.  
   - Vai ficar um tempo sem usar? Pause pra economizar.  
 
@@ -169,10 +169,10 @@ Uma VM (Virtual Machine) é um computador virtual que roda no Azure, podendo ser
 ---
 
 ### **Dicas de Ouro 🏆**  
-- Experimente criar **Snapshots**: Faça backups rápidos do disco da sua VM.  
-- Configure **NSG (Network Security Groups)**: Garanta que só portas necessárias estejam abertas.  
-- Explore **Azure Bastion**: Acesse suas VMs com mais segurança, sem expor IPs públicos.  
-- Teste com o **Azure CLI**: Automatize a criação e gerenciamento de VMs.  
+▶ Experimente criar **Snapshots**: Faça backups rápidos do disco da sua VM.  
+▶ Configure **NSG (Network Security Groups)**: Garanta que só portas necessárias estejam abertas.  
+▶ Explore **Azure Bastion**: Acesse suas VMs com mais segurança, sem expor IPs públicos.  
+▶ Teste com o **Azure CLI**: Automatize a criação e gerenciamento de VMs.  
 
 ---
 
@@ -185,11 +185,11 @@ Uma VM (Virtual Machine) é um computador virtual que roda no Azure, podendo ser
 Forma prática e segura de gerenciar bancos de dados na nuvem, no Azure. Ele oferece soluções completas, seja pra projetos pequenos ou grandes, com suporte a SQL Server, PostgreSQL, MySQL, e até bancos NoSQL como o Cosmos DB. Bora entender como tudo funciona?
 
 # Por que usar bancos de dados no Azure?
---> Gestão simplificada: Sem dor de cabeça com hardware, backups ou atualizações;
---> Alta disponibilidade: Seus dados sempre acessíveis, com redundância global;
---> Segurança integrada: Criptografia, autenticação multifator e compliance com normas globais;
---> Escalabilidade: Cresceu o tráfego? O Azure ajusta os recursos automaticamente;
---> Conexão fácil: Integração com serviços como Azure Functions, Web Apps e Power BI;
+---▶ Gestão simplificada: Sem dor de cabeça com hardware, backups ou atualizações;
+---▶ Alta disponibilidade: Seus dados sempre acessíveis, com redundância global;
+---▶ Segurança integrada: Criptografia, autenticação multifator e compliance com normas globais;
+---▶ Escalabilidade: Cresceu o tráfego? O Azure ajusta os recursos automaticamente;
+---▶ Conexão fácil: Integração com serviços como Azure Functions, Web Apps e Power BI;
 
 ### Tipos de Bancos Disponíveis no Azure
 Azure SQL Database, PostgreSQL, MySQL, Cosmos DB, MariaDB
